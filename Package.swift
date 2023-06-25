@@ -11,6 +11,7 @@ let package = Package(
             name: "OpenAISwift",
             targets: ["OpenAISwift"]),
     ],
+    platforms: [.iOS(.v15), .macOS(.v10_15)],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
